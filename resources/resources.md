@@ -1,6 +1,6 @@
 # Resources for learning Bayesian data analysis techniques
 
-## Packages
+## Software
 
 ### Multi-interface
 
@@ -53,5 +53,7 @@
   
 ## Blogs
 
+
+## Classes at UCD
 
   
