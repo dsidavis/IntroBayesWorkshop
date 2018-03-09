@@ -312,6 +312,10 @@ But...
 This does not quite work... without another piece, it is just a
 really inefficient grid survey.
 
+## Measuring campus
+
+![Map of UCD](map.png)
+
 ## Metropolis-Hastings
 
 What if we visit a location a number of times in proportion to that
@@ -325,10 +329,10 @@ to determine the height of the buildings.
 What would this look like?
 
 1. From a starting place, you decide to go in a random direction for
-   a random distance.
+   a random distance (from 0 to some upper limit).
 
 1. Before you move, you look at where you will land. You evaluate the
-   new locations height relative to your current position.  
+   new location's height relative to your current position.  
 
 1. You will move to that new location with a probability related to
    the difference in heights.
@@ -399,7 +403,21 @@ Ideally:
   
 + We will be more likely to move towards buildings than away from them.
 
+## Take-aways
 
+The goal of all MCMC samplers is the same: estimate a probability
+distribution without needing to know its exact analytic form.
 
+MCMC algorithms all have their strengths and weaknesses.
 
+Some MCMC algorithms are more efficient than others, with the
+trade-off of increased complexity.
 
+## Take-aways (cont)
+
+Understanding basic mechanism is essential to diagnosing MCMC
+results. (Trust me\*)
+
+Cruising around campus with a jetpack would be super fun.
+
+\* Time allowing, we will see this ourselves.
