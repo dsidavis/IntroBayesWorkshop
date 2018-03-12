@@ -9,3 +9,4 @@ This workshop covers:
 + Fundamental concepts of Bayesian inference
 + An introduction to a few common frameworks for estimating Bayesian
   models
++ A glance at Bayesian inference in action
